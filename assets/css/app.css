@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+
+.container {
+    max-width: 100%;
+}
+
+.navbar {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    color: #f1f1f1;
+    justify-content: space-between;
+}
+
+.nav__wrapper {
+    background-color: #000;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.navbar__right {
+    display: flex;
+    gap: 4rem;
+}
+.navbar__menu {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav_menu_items {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav_menu_items li a {
+   text-decoration: none;
+   color: #f2f2f2;
+   font-size: medium;
+}
+
+.nav_menu_items li {
+    list-style-type: none;
+}
+
+.donate_btn {
+    display: block;
+    width: 150px;
+    height: 45px;
+    border: 2px solid #DAB13B;
+    border-radius: 5px;
+    text-align: center;
+    color: #f2f2f2;
+    line-height: 2.5;
+    text-decoration: none;
+}
+
