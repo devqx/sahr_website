@@ -73,3 +73,41 @@ body {
     text-decoration: none;
 }
 
+
+.slide--item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide--item1 {
+    background-image: url("../../assets/img/22.png");
+}
+
+.slide--item2 {
+    background-image: url("../../assets/img/23.png");
+}
+
+.slide--item3 {
+    background-image: url("../../assets/img/17.png");
+}
+
+.slide--item4 {
+    background-image: url("../../assets/img/18.png");
+}
+
+.slide--item5 {
+    background-image: url("../../assets/img/19.png");
+}
+
+.slide--item6 {
+    background-image: url("../../assets/img/20.png");
+}
+
+.slide--item7 {
+    background-image: url("../../assets/img/21.png");
+}
+
+.slide--item8 {
+    background-image: url("../../assets/img/24.png");
+}
